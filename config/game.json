@@ -1,0 +1,9 @@
+{
+	"gamename": "装逼三国",						// 游戏名称
+	"gameversion": "1.02.108",					// 游戏版本
+	"servername": "桃园结义",					// 服务器名称
+	"gameport": 80,								// 端口
+	"adminport": 8081,							// 后台管理端口
+	"adminpassword": "87d9bb400c0634691f0e3baaf1e2fd0d"
+												// 后台管理密码
+}

@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	cursor: default;
+	outline: none;
+}
+
+html{
+	font-size: 16px;
+}
+
+body{
+	background-color: #fafafa;
+}
+
+a{
+	text-decoration: none;
+	color: #555;
+	cursor: pointer;
+}
+
+a>*{
+	cursor: inherit;
+}
+
+a:hover{
+	color: #3077ef;
+}
+
+input[type=text],
+input[type=password],
+textarea{
+	cursor: text;
+	border: solid 1px #999;
+}
+
+p{
+	margin: 12px 0;
+	text-indent: 2rem;
+}
+
+h1{
+	margin: 32px 0;
+}
+
+h2{
+	margin: 28px 0;
+}
+
+h3{
+	margin: 24px 0;
+}
+
+h4{
+	margin: 22px 0;
+}
+
+h5,h6{
+	margin: 18px 0;
+}
+
+img{
+	display: inline-block;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+button,
+input[type=button],
+input[type=submit]{
+	border: none;
+	padding: 6px 12px;
+}
+
+iframe{
+	border: none;
+	display: block;
+	overflow: auto;
+}
+
+hr{
+	margin: 12px 0;
+}

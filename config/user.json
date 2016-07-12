@@ -1,0 +1,88 @@
+{
+	// 用户角色
+	
+	// 用户名
+	"username": "test",
+	
+	// 密码
+	"password": "123456",
+	
+	// 角色名
+	"rolename": "王师傅",
+	
+	// 创建时间
+	"createtime": 1468329608412,
+	
+	// 最后登录时间
+	"lastlogin": 1468329608412,
+	
+	// 职业
+	"profession": 1,
+	
+	// 等级
+	"level": 1,
+	
+	// HP
+	"hp": 200,
+	
+	// 力量，1点力量=1.5物攻 25hp
+	"power": 14,
+	
+	// 敏捷，1点敏捷=2敏捷 4暴击 3物防
+	"agile": 11,
+	
+	// 智力，1点智力=2魔攻 3魔防
+	"intelligence": 9,
+	
+	// 攻防计算方式
+	
+	// 攻击 × (1 - 防御/225*等级)
+	
+	// 物攻
+	"phys_damage_min": 32,
+	
+	"phys_damage_max": 38,
+	
+	// 魔攻
+	"mana_damage_min": 18,
+	
+	"mana_damage_max": 22,
+	
+	// 物防
+	"phys_defence": 35,
+	
+	// 魔防
+	"mana_defence": 20,
+	
+	// 暴击率，crit / (等级*180) % 90
+	"crit": 10,
+	
+	// 背包
+	"bagage": [
+		{
+			"id": "ITEM000001",
+			"quantity": 1
+		}
+	],
+	
+	// 装备
+	"equipment": {
+		// 武器
+		"weapon": "ITEM000001",
+		
+		// 身体
+		"body": "ITEM000001",
+		
+		// 腿部
+		"leg": "ITEM000001",
+		
+		// 头部
+		"head": "ITEM000001",
+		
+		// 项链
+		"necklace": "ITEM000001",
+		
+		// 戒指
+		"ring": "ITEM000001"
+	}
+}

@@ -1,0 +1,81 @@
+{
+	// 装备模板
+	"id": "EQ00001",
+	
+	// 等级
+	"level": 1,
+	
+	// 品级
+	"quality": 1,
+	
+	// 名称
+	"name": "新手护甲",
+	
+	// 类型，0 武器，1 防具，2 首饰
+	"type": 1,
+	
+	// 装备位置，对于武器为0，对于防具，0 头部，1 身体，2 腿部，对于首饰，0 项链，1 戒指
+	"place": 1,
+	
+	// 是否可强化
+	"intensable": true,
+	
+	// 职业，0 全部，1 战士，2 法师，3 弓箭手
+	"profession": 1,
+	
+	// 装备属性
+	"attribute": {
+		// 物理伤害
+		"phys_damage_min": 24,
+		
+		"phys_damage_max": 30,
+		
+		// 魔法伤害
+		"mana_damage_min": 18,
+		
+		"mana_damage_max": 22,
+		
+		// 最大耐久度
+		"durable_max": 100,
+		
+		// 三大基本属性，具体换算方法见角色模块
+		// 力量
+		"power": 5,
+		
+		// 敏捷
+		"agile": 3,
+		
+		// 智力
+		"intelligence": 2,
+		
+		// 物理防御，计算方法见角色模块
+		"phys_defence": 20,
+		
+		// 魔法防御
+		"mana_defence": 18,
+		
+		// 暴击，计算方法见角色模块
+		"crit": 22,
+		
+		// 生命值
+		"hp": 120
+	},
+	
+	"intensify": [
+		// +1
+		{
+			// 物理伤害
+			"phys_damage_min": 28,
+			
+			"phys_damage_max": 34,
+		},
+		
+		// +2
+		{
+			// 物理伤害
+			"phys_damage_min": 32,
+			
+			"phys_damage_max": 38,
+		}
+	]
+}

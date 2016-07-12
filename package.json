@@ -1,0 +1,7 @@
+{
+	"dependencies": {
+		"siegrune": "*",
+		"mongodb": "*",
+		"redis": "*"
+	}
+}
